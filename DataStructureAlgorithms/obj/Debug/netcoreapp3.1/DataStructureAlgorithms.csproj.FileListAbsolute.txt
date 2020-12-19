@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\bin\Debug\netcoreapp3.1\DataStructureAlgorithms.exe
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\bin\Debug\netcoreapp3.1\DataStructureAlgorithms.deps.json
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\bin\Debug\netcoreapp3.1\DataStructureAlgorithms.runtimeconfig.json
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\bin\Debug\netcoreapp3.1\DataStructureAlgorithms.runtimeconfig.dev.json
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\bin\Debug\netcoreapp3.1\DataStructureAlgorithms.dll
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\bin\Debug\netcoreapp3.1\DataStructureAlgorithms.pdb
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\obj\Debug\netcoreapp3.1\DataStructureAlgorithms.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\obj\Debug\netcoreapp3.1\DataStructureAlgorithms.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\obj\Debug\netcoreapp3.1\DataStructureAlgorithms.AssemblyInfo.cs
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\obj\Debug\netcoreapp3.1\DataStructureAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\obj\Debug\netcoreapp3.1\DataStructureAlgorithms.dll
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\obj\Debug\netcoreapp3.1\DataStructureAlgorithms.pdb
+C:\Users\USER\source\repos\DataStructureAlgorithms\DataStructureAlgorithms\obj\Debug\netcoreapp3.1\DataStructureAlgorithms.genruntimeconfig.cache
