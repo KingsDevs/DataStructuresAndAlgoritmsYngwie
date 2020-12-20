@@ -7,9 +7,11 @@ namespace DataStructureAlgorithms
     {
         static void Main(string[] args)
         {
+            //Data Structures
+
             //Array
-            //int[] arr = { 1, 2, 3 };
-            //DataStructure.PrintElementsInArray(arr);
+            //string[] arr = {"Joshua", "Pakilit", "Lopez" };
+            //Array<string>.PrintElementsInArray(arr);
 
             //List
             //List<int> randomInts = List_.RandomIntList(1, 10, 5);
@@ -21,11 +23,55 @@ namespace DataStructureAlgorithms
             //Console.WriteLine(randInts);
 
             //LinkedList
-            LinkedList_<int> myLinkedList = new LinkedList_<int>(1);
-            myLinkedList.AddToEnd(23);
-            myLinkedList.AddToEnd(14);
-            myLinkedList.PrintValuesInLinkedList();
-            
+            //LinkedList_<int> myLinkedList = new LinkedList_<int>(1);
+            //myLinkedList.AddToEnd(23);
+            //myLinkedList.AddToEnd(14);
+            //myLinkedList.PrintValuesInLinkedList();
+
+            //Queue
+            //Queue<string> queue = new Queue<string>();
+            //string[] arr = { "Joshua", "Pakilit", "Lopez" };
+            //Queue_<string>.AddMultiple(arr, queue);
+            //Console.WriteLine(queue.Dequeue());
+            //Console.WriteLine(queue.Dequeue());
+            //Console.WriteLine(queue.Dequeue());
+
+            //Stack
+            //Stack<string> stack = new Stack<string>();
+            //Stack_<string>.AddMutiple(arr, stack);
+            //Console.WriteLine(stack.Pop());
+            //Console.WriteLine(stack.Pop());
+            //Console.WriteLine(stack.Pop());
+
+            //Sorting Algorithms
+
+            //InsertionSort
+            int[] arr = {10,4,2};
+            //InsertionSort.Sort(arr);
+
+            //foreach(int item in arr)
+            //{
+            //    Console.Write(item.ToString() + ' ');
+            //}
+
+            //SelectionSort
+            //SelectionSort.Sort(arr);
+
+            //foreach (int item in arr)
+            //{
+            //    Console.Write(item.ToString() + ' ');
+            //}
+
+            //QuickSort
+            //QuickSort.Sort(arr);
+
+            //foreach (int item in arr)
+            //{
+            //    Console.Write(item.ToString() + ' ');
+            //}
+
+            //Searching Algorithms
+            Console.WriteLine(BinarySearch.Search(arr, 123));
         }
     }
 }

@@ -4,18 +4,18 @@ using System.Text;
 
 namespace DataStructureAlgorithms
 {
-    public class Array
+    public class Array<T>
     {
        
 
         /* Initialize a method/function that takes an array as an argument then prints out the
           elements of the array 
          */
-        public static void PrintElementsInArray(int[] arr)
+        public static void PrintElementsInArray(T[] arr)
         {
-            foreach(int items in arr)
+            foreach(T items in arr)
             {
-                Console.Write(items);
+                Console.Write(items.ToString() + ' ');
             }
         }
 
