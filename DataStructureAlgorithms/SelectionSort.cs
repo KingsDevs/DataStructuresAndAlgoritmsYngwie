@@ -12,21 +12,23 @@ namespace DataStructureAlgorithms
             int counter = 0;
             int minimumIndex = counter;
             int traversingIndex = counter + 1;
+            int temp = 0;
 
             while(counter < arr.Length)
             {
                 for(int i = counter; i < arr.Length-1; i++)
                 {
-                    if(arr[i] > arr[traversingIndex])
+                    if(arr[minimumIndex] > arr[traversingIndex])
                     {
                         minimumIndex = traversingIndex;
                     }
                     traversingIndex++;
                 }
-                int temp = arr[counter];
-                int temp2 = arr[minimumIndex];
+                temp = arr[counter];
+            
+                arr[counter] = arr[minimumIndex];
                 arr[minimumIndex] = temp;
-                arr[counter] = temp2;
+                
 
                 counter++;
                 minimumIndex = counter;

@@ -19,8 +19,7 @@ namespace DataStructureAlgorithms
             Random random = new Random();
             for (int i = 0; i < size; i++)
             {
-                int value = random.Next(min, max + 1);
-                randomInts.Add(value);
+                randomInts.Add(random.Next(min, max + 1));
             }
 
             return randomInts;

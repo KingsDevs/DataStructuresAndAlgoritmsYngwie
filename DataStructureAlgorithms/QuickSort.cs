@@ -11,25 +11,23 @@ namespace DataStructureAlgorithms
         {
             int pivot = arr[r];
             int i = l - 1;
+            int temp = 0;
 
             for(int j = l; j < r; j++)
             {
                 if(arr[j] < pivot)
                 {
                     i++;
-                    int temp_ = arr[i];
-                    int temp2_ = arr[j];
-                    arr[i] = temp2_;
-                    arr[j] = temp_;
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
                 }
             }
 
-            int temp = arr[r];
-            int temp2 = arr[i + 1];
-
-            arr[r] = temp2;
+            temp = arr[r];
+            arr[r] = arr[i + 1];
             arr[i + 1] = temp;
-
+            
             return i + 1;
         }
 

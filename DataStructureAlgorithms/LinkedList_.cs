@@ -28,7 +28,7 @@ namespace DataStructureAlgorithms
 
         public void PrintValuesInLinkedList()
         {
-            Console.Write("| " + data + ">>");
+            Console.Write(data + "--> ");
             if(pointer != null)
             {
                 pointer.PrintValuesInLinkedList();

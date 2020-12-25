@@ -10,17 +10,26 @@ namespace DataStructureAlgorithms
             //Data Structures
 
             //Array
-            //string[] arr = {"Joshua", "Pakilit", "Lopez" };
+            //string[] arr = { "Marc", "Lojane", "Yngwie", "Pasaylo", "Pakilit" };
             //Array<string>.PrintElementsInArray(arr);
 
+            //int[] arr2 = RandomArr(0, 100, 10);
+            //Array<int>.PrintElementsInArray(arr2);
+
+            //char[] arr3 = { 'Y', 'N', 'G', 'W', 'I', 'E' };
+            //Array<char>.PrintElementsInArray(arr3);
+
+            //bool[] arr4 = { true, true, false, true, false };
+            //Array<bool>.PrintElementsInArray(arr4);
+
             //List
-            //List<int> randomInts = List_.RandomIntList(1, 10, 5);
-            //string randInts = "";
-            //foreach (int integer in randomInts)
+            //List<int> myList = List_.RandomIntList(1, 1000, 20);
+
+            //foreach (int item in myList)
             //{
-            //    randInts += integer.ToString() + ' ';
+            //    Console.Write(item.ToString() + ' ');
             //}
-            //Console.WriteLine(randInts);
+
 
             //LinkedList
             //LinkedList_<int> myLinkedList = new LinkedList_<int>(1);
@@ -29,49 +38,79 @@ namespace DataStructureAlgorithms
             //myLinkedList.PrintValuesInLinkedList();
 
             //Queue
-            //Queue<string> queue = new Queue<string>();
-            //string[] arr = { "Joshua", "Pakilit", "Lopez" };
-            //Queue_<string>.AddMultiple(arr, queue);
-            //Console.WriteLine(queue.Dequeue());
-            //Console.WriteLine(queue.Dequeue());
-            //Console.WriteLine(queue.Dequeue());
+            //Queue<string> myQueue = new Queue<string>();
+            //string[] arr = { "Marc", "Lojane", "Yngwie", "Pasaylo", "Pakilit" };
+            //Queue_<string>.AddMultiple(arr, myQueue);
+            //int size = myQueue.Count;
+            //for(int i = 0; i < size; i++)
+            //{
+            //    Console.WriteLine(myQueue.Dequeue());
+            //}
+
 
             //Stack
-            //Stack<string> stack = new Stack<string>();
-            //Stack_<string>.AddMutiple(arr, stack);
-            //Console.WriteLine(stack.Pop());
-            //Console.WriteLine(stack.Pop());
-            //Console.WriteLine(stack.Pop());
+            //Stack<string> myStack = new Stack<string>();
+            //string[] arr = { "Marc", "Lojane", "Yngwie", "Pasaylo", "Pakilit" };
+            //Stack_<string>.AddMutiple(arr, myStack);
+            //int size = myStack.Count;
+            //for(int i = 0; i < size; i++)
+            //{
+            //    Console.WriteLine(myStack.Pop());
+            //}
 
             //Sorting Algorithms
 
             //InsertionSort
-            int[] arr = {10,4,2};
+            //int[] arr = RandomArr(0, 20, 10);
+            //Console.Write("Original Array: ");
+            //Array<int>.PrintElementsInArray(arr);
             //InsertionSort.Sort(arr);
+            //Console.Write("Sorted Array: ");
+            //Array<int>.PrintElementsInArray(arr);
 
-            //foreach(int item in arr)
-            //{
-            //    Console.Write(item.ToString() + ' ');
-            //}
 
             //SelectionSort
+            //int[] arr = RandomArr(0, 20, 10);
+            //Console.Write("Original Array: ");
+            //Array<int>.PrintElementsInArray(arr);
             //SelectionSort.Sort(arr);
+            //Console.Write("Sorted Array: ");
+            //Array<int>.PrintElementsInArray(arr);
 
-            //foreach (int item in arr)
-            //{
-            //    Console.Write(item.ToString() + ' ');
-            //}
+
 
             //QuickSort
+            //int[] arr = RandomArr(0, 20, 10);
+            //Console.Write("Original Array: ");
+            //Array<int>.PrintElementsInArray(arr);
             //QuickSort.Sort(arr);
+            //Console.Write("Sorted Array: ");
+            //Array<int>.PrintElementsInArray(arr);
 
-            //foreach (int item in arr)
-            //{
-            //    Console.Write(item.ToString() + ' ');
-            //}
 
             //Searching Algorithms
-            Console.WriteLine(BinarySearch.Search(arr, 123));
+            int[] arr = RandomArr(0, 15, 10);
+            int[] arr2 = RandomArr(0, 15, 10);
+            int[] arr3 = RandomArr(0, 15, 10);
+            Array<int>.PrintElementsInArray(arr);
+            Console.WriteLine(BinarySearch.Search(arr, 10));
+            Array<int>.PrintElementsInArray(arr2);
+            Console.WriteLine(BinarySearch.Search(arr2, 14));
+            Array<int>.PrintElementsInArray(arr3);
+            Console.WriteLine(BinarySearch.Search(arr3, 40));
+        }
+
+        public static int[] RandomArr(int min, int max, int size)
+        {
+            int[] arr = new int[size];
+            Random random = new Random();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = random.Next(min, max + 1);
+            }
+
+
+            return arr;
         }
     }
 }
