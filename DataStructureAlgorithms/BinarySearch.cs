@@ -6,6 +6,7 @@ namespace DataStructureAlgorithms
 {
     public class BinarySearch
     {
+        
         public static int Search(int[]arr, int target)
         {
             int r = arr.Length - 1;
